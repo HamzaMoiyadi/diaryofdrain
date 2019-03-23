@@ -8,6 +8,7 @@
       <router-link to="/fifth">Fifth</router-link> 
     </div>
     <router-view/>
+	hello
   </div>
 </template>
 
