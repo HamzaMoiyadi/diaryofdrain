@@ -2,14 +2,7 @@ const path = require('path');
 
 
 module.exports = {
-	css: {
-		loaderOptions: {
-			stylus: {
-				data: `@import "@/styles/_variables.styl";@import "@/styles/globals.styl"`
-			}
-		}
-	},
-	chainWebpack(config) {
+    chainWebpack(config) {
 		config.module.rule('md')
 			.test(/\.md/)
 			.use('vue-loader')
@@ -20,18 +13,27 @@ module.exports = {
 			.options({
 				raw: true
 			})
-	}
+	},
+
+    pluginOptions: {
+      'style-resources-loader': {
+        preProcessor: 'stylus',
+        patterns: [
+			path.resolve(__dirname, './src/styles/*.styl'),
+		]
+      }
+    }
 }
 
 
-function addStyleResource(rule) {
+// function addStyleResource(rule) {
 
-	rule.use('style-resource')
-		.loader('style-resources-loader')
-		.options({
-			patterns: [
-				path.resolve(__dirname, './src/styles/globals.styl'),
-			],
-		})
+// 	rule.use('style-resource')
+// 		.loader('style-resources-loader')
+// 		.options({
+// 			patterns: [
+				
+// 			],
+// 		})
 
-}
+// }
