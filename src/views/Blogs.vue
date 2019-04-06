@@ -46,3 +46,15 @@ img {
   color: #42b883;
 }
 </style>
+
+<script>
+
+// import Blogs from '@/statics/n-blogs.json'
+
+
+
+
+
+// console.log(this.route$);
+export default {};
+</script>

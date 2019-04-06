@@ -1,0 +1,11 @@
+# Family is what you develop, not what you are born with
+
+Having the really messed up family that I do -- at the time of writing this entry, everything is fine, but some things stick in your brain. Like _cancer_ -- I have constantly been on the need to have my own family. The concept just is very appealing to me, to have a family that I choose, and respect, rather than the ones that I am forced to respect (I hate being forced for anything, except by PP). So I set about, starting from my school days, getting really attached to people. 
+
+## The Bachpan
+
+The **very** first friend I made of that sorts, was this kid in LKG, even forgot the name of that weird place (there will be a blockquote here somewhere that will describe that place. It's quite trippy tbh.), but I also don't remember his name, so it's fine. But soon after that, I made this friend named [Brahadesh]. Cool kid, really chill guy. And also someone who turned out to be quite special in a non-chalant way. [Reuben]. So this [Brahadesh] guy was my friend till like, 4th grade, and then he just upped and vanished. Little tamilian fucker. Felt horrible back then, I did. That maybe I said something _even though I didn't swear back then_. Got normal after that when I met the next most important person in my life, [Ali]. Damn, even though we became good friends in the 6th grade, 5th grade was chill with him and a couple of other people who I am no longer friends with. None. Not even a single one. **Pretty rough ending, huh?** That's what life is. Full of rough-fucking endings. Anyway, enough about school "Familia" and now let's move on to Jr. College Family, and wrap that up in 1/10th the length of the above paragraph. 
+
+## The Not-so-bachpan
+
+Everything was the fucking same. Jo 10 saal mein hua, wohi same chiz 2 saal mein huyi. Amazing compression ratios. Life is actually the best compression algorithm. When things are horrible, it will make 2 years seem like 10 years. When things are good, 100 years will seem like 10 days. Ajab chutyapa hai. 

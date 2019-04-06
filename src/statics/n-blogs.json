@@ -1,0 +1,37 @@
+{
+	"random-musings": {
+		"name": "Random Musings",
+		"description": "A collection of really random and stupid thoughts that will be collated here. These are not 'happy', nor are they 'sad'. They just popped in my mind when I am thinking a lot, or when I am drunk, or when I am high, or all three.",
+		"posts": []
+	},
+	"music-reviews": {
+		"name": "Music Reviews",
+		"description": "Soo... these aren't 'reviews' as such. They're more along the lines of what my thoughts are on a particular artist, album, or song. Who am I (or anyone, for that matter) to review a piece of art made by people who are infinitely more talented than I am? Except mumble rappers. I will review them right here. They are tatti.",
+		"posts": []
+	},
+	"food-reviews": {
+		"name": "Food Reviews",
+		"description": "As evidenced by people who have seen me in real life and on instagram, I am a compulsive eater. I will eat ANYTHING, as long as it smells and tastes good. Though now I am no longer at the peak of my eating abilities which is why I eat less than I used to, but I still love food. Also, Veg Biryani is a fucking myth, don't claim it exists or is even good, you idiotic grass-loving soya-beans.",
+		"posts": []
+	},
+	"board-game-reviews": {
+		"name": "Board Game Reviews",
+		"description": "Despite the lack of friends I have now, (everyone fucked off to different countries leaving me alone), I have this fascination for board games, majorly coz of how complicated they can get at the start, but gradually you know a game like the back of your hand. Again, this category isn't 'reviews' as such, similar to the other categories (I am not as judgemental as people assume I am), but they are more like what I understood out of the game, and if anyone is interested, the rules in a more... simplified manner.",
+		"posts": []
+	},
+	"my-will": {
+		"name": "My Will",
+		"description": "In the event that I kill myself, which is somewhat likely considering I am self-destructive as fuck (not coz I am Muslim, you racist pigs), enter your email ID and password which I will send across before I perform the act, and you will see the last words that I've written for you. Pretty neat, huh?",
+		"posts": []
+	},
+	"happy-days": {
+		"name": "Happy Days",
+		"description": "Things that I write when I am happy. This category really is a no-brainer. It's written in the bloody title. ",
+		"posts": []
+	},
+	"sad-days": {
+		"name": "Sad Days",
+		"description": "Things that I write when I am sad. This category really is a no-brainer. It's written in the bloody title. ",
+		"posts": []
+	}
+}
