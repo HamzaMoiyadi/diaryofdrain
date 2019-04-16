@@ -1,0 +1,22 @@
+<div>
+	<div class="navbar">
+		<!-- logo  -->
+		<div class="logo">DIARY.OF.DRAIN</div>
+		<div class="links">
+			<template v-for="(route, index) in categories">
+				<span class="categories" :key="index" @mouseover="showDetails(route.slug, index)"
+					@mouseleave="hideDetails(route.slug)">{{route.title}}</span>
+			</template>
+			<!--Medium Link-->
+			<a href="#">Check me out on Medium</a>
+			<!--<router-link to="/first">First</router-link>|
+		  <router-link to="/second">Second</router-link>|
+		  <router-link to="/third">Third</router-link>|
+		  <router-link to="/fourth">Fourth</router-link>|
+			<router-link to="/fifth">Fifth</router-link>-->
+		</div>
+	</div>
+
+	<Details v-if="hovered" :title="getDetails().title" :description="getDetails().description"
+		:links="getDetails().links" />
+</div>

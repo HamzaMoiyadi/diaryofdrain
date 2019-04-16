@@ -1,41 +1,6 @@
-<template>
-  <div>
-    <div class="navbar">
-      <!-- logo  -->
-      <div class="logo">DIARY.OF.DRAIN</div>
-      <div class="links">
-        <template v-for="(route, index) in categories">
-          <span
-            class="categories"
-            :key="index"
-            @mouseover="showDetails(route.slug, index)"
-            @mouseleave="hideDetails(route.slug)"
-          >{{route.title}}</span>
-        </template>
-        <!--Medium Link-->
-        <a href="#">Check me out on Medium</a>
-        <!--<router-link to="/first">First</router-link>|
-      <router-link to="/second">Second</router-link>|
-      <router-link to="/third">Third</router-link>|
-      <router-link to="/fourth">Fourth</router-link>|
-        <router-link to="/fifth">Fifth</router-link>-->
-      </div>
-    </div>
-
-    <Details
-      v-if="hovered"
-      :title="getDetails().title"
-      :description="getDetails().description"
-      :links="getDetails().links"
-    />
-  </div>
-</template>
-
-
-<script>
 /* eslint-disable */
 import Blogs from "@/statics/blogs.json";
-import Details from "./Details.vue";
+import Details from "../Details/Details.vue";
 
 import BlogInfo from "@/statics/n-blogs.json";
 
@@ -111,32 +76,3 @@ export default {
     getDetails: getDetails
   }
 };
-</script>
-
-
-
-<style lang="stylus" scoped>
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.5em 1em;
-  box-shadow: 0px 5px 10px -4px rgba(0, 0, 0, 0.1);
-
-  .logo {
-    font-family: 'Arvo', sans-serif;
-    letter-spacing: 2px;
-  }
-
-  .categories {
-    font-variant: all-small-caps;
-    letter-spacing: 2px;
-    padding: 0em 0.5em;
-    font-weight: 500;
-    cursor: pointer;
-
-    &:hover {
-      background-color: #dedede;
-    }
-  }
-}
-</style>
