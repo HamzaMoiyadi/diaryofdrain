@@ -2,6 +2,7 @@
   <div class="blog">
     <router-view/>
     <router-link to="/" tag="a" class="back">&laquo; Back</router-link>
+    <h1>Blogs page</h1>
   </div>
 </template>
 <style lang="css" scoped>
